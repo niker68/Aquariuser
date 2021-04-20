@@ -1,6 +1,7 @@
 # Aquariuser
 
 Прототип игры для android без дизайна.
+Файл apk для установки [здесь](https://github.com/niker68/Aquariuser/blob/master/app-debug.apk)
 
 ## Правила
 - Нужно наполнить mainjar бак. Для этого у вас есть 3 кувшина разного объема. 
