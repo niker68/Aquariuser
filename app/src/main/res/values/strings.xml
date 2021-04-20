@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Aquariuser</string>
+    <string name="continue_game">Continue</string>
+    <string name="new_game">New game</string>
+    <string name="cancel_game">New game</string>
+    <string name="restart_game">Restart</string>
+    <string name="support_game">Support</string>
+    <string name="rate_game">Rate this app</string>
+    <string name="main_menu_game">Main menu</string>
+    <string name="pause_game_title">Pause Game</string>
+    <string name="game_title">Game Title</string>
+    <string name="fill">Fill</string>
+    <string name="hard_level">Hard level</string>
+    <string name="medium_level">Medium level</string>
+    <string name="easy_level">Easy level</string>
+    <string name="reserve">Reserve</string>
+    <string name="taken">Taken</string>
+    <string name="mainjar_layout">Main jar</string>
+
+
+</resources>

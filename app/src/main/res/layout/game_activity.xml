@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/cen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@color/colorPrimary"
+        android:layout_alignParentBottom = "true"
+        android:layout_centerHorizontal = "true"
+        />
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restart_game"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true"/>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel_game"
+        android:layout_alignParentTop = "true"
+        android:layout_toRightOf="@id/restart"/>
+
+    <Button
+        android:id="@+id/main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_menu_game"
+        android:layout_toLeftOf="@id/restart"/>
+
+    <Button
+        android:id="@+id/fill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jartank"
+        android:layout_toRightOf="@+id/cen"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/fill" />
+
+    <fragment
+        android:id="@+id/jar0"
+        class="com.niker68.aquariuser_timekiller.Jar0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf = "@id/jar2"
+        android:layout_below = "@id/mainjar" />
+    <fragment
+        android:id="@+id/jar1"
+        class="com.niker68.aquariuser_timekiller.Jar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jar1"
+        android:layout_centerHorizontal = "true"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf = "@id/jar2"
+        />
+    <fragment
+    android:id="@+id/jar2"
+        class="com.niker68.aquariuser_timekiller.Jar2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:text="Jar2"
+        />
+    <fragment
+        android:id="@+id/mainjar"
+        class="com.niker68.aquariuser_timekiller.Jar3"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/jar2"
+        android:text="mainJar"
+        />
+
+    <TextView
+        android:id="@+id/watertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taken"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="6dp"
+        android:text="0"
+        android:textSize="36sp" />
+    <TextView
+        android:id="@+id/taken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/drain"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="40dp"
+        android:text="@string/taken"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/jartank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/podpis"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="6dp"
+        android:text="0"
+        android:textSize="36sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mainjar"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="6dp"
+        android:text="@string/mainjar_layout"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/podpis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/restart"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="40dp"
+        android:text="@string/reserve"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/drain"
+        android:layout_below="@+id/jartank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/cen"
+        android:text="Drain" />
+</RelativeLayout>
