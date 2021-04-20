@@ -1,6 +1,6 @@
 # Aquariuser
 
-Прототип игры для android без дизайна.
+Прототип игры для android без дизайна.  
 Файл apk для установки [здесь](https://github.com/niker68/Aquariuser/blob/master/app-debug.apk)
 
 ## Правила
