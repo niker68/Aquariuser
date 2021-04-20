@@ -1,5 +1,9 @@
 # Aquariuser
 
+<p>
+<img src="https://github.com/niker68/Aquariuser/blob/master/media/screen0.jpg" width="216" height="468" />
+<img src="https://github.com/niker68/Aquariuser/blob/master/media/screen1.jpg" width="216" height="468" />
+</p>
 Прототип игры для android без дизайна.  
 Файл apk для установки [здесь](https://github.com/niker68/Aquariuser/blob/master/app-debug.apk)
 
